@@ -1,0 +1,11 @@
+div.Docs > h1.headline {
+  color: white;
+}
+
+div.Docs > div.docs-component-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+}
+/*# sourceMappingURL=Docs.view.css.map */

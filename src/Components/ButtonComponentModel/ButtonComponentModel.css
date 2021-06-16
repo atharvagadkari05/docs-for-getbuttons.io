@@ -1,0 +1,22 @@
+@import url("https://cdn.statically.io/gh/DesignSystemsOSS/getbuttons.io/2352bc13/src/lib/css/getbuttons.css");
+div.ButtonComponentModel {
+  display: -ms-grid;
+  display: grid;
+  padding: 2em;
+}
+
+div.ButtonComponentModel > code.button-className {
+  margin-top: 1.2em;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Ubuntu Mono", monospace;
+  color: white;
+}
+
+button.closeButton {
+  padding: 0.8em;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=ButtonComponentModel.css.map */

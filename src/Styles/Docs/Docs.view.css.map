@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEE,GAFC,AAAA,KAAK,GAEJ,EAAE,AAAA,SAAS,CAAC;EACZ,KAAK,EAAE,KAAK;CACb;;AAJH,AAME,GANC,AAAA,KAAK,GAMJ,GAAG,AAAA,yBAAyB,CAAC;EAC7B,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,wBAAwB;CAChD",
+    "sources": [
+        "Docs.view.scss"
+    ],
+    "names": [],
+    "file": "Docs.view.css"
+}

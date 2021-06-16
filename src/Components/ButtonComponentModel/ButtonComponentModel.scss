@@ -1,0 +1,35 @@
+
+// importing getbuttons.io code through CDN Link
+@import url("https://cdn.statically.io/gh/DesignSystemsOSS/getbuttons.io/2352bc13/src/lib/css/getbuttons.css");
+
+div.ButtonComponentModel {
+  display: grid;
+  padding: 2em;
+  // margin-right: auto;
+  // margin-left: auto;
+  
+  > button {
+    // margin-right: auto;
+    // margin-left: auto;
+  }
+
+  > code.button-className {
+    margin-top: 1.2em;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Ubuntu Mono", monospace;
+    color: white;
+  }
+
+  // &:hover {
+  //   outline: 1px solid rgba(128, 128, 128, 0.205) !important;
+  // }
+
+}
+
+button.closeButton {
+  padding: 0.8em;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}

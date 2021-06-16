@@ -1,0 +1,12 @@
+div.Docs {
+
+  > h1.headline {
+    color: white;
+  }
+
+  > div.docs-component-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+}
