@@ -11,15 +11,22 @@
 @import url("../Components/3DButtonContainer/3DButtonContainer.css");
 @import url("../Components/3DButtonContainer/3DButton/3DButton.css");
 
+// importing section component css
+@import url("../Views/Home/Sections/DescriptionSection/DescriptionSection.css");
+
 // importing variables
 @import url("./variables/variables.css");
+
+/// Importing external css libraries
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'); /// awesome fonts-icons
 
 
 body {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  min-width: 600px;
+  width: 100%;
+  overflow-x: hidden;
   background-color: black;
   font-family: "Poppins", sans-serif;
 }

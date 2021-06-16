@@ -4,12 +4,15 @@
 @import url("../Components/Footer/Footer.css");
 @import url("../Components/3DButtonContainer/3DButtonContainer.css");
 @import url("../Components/3DButtonContainer/3DButton/3DButton.css");
+@import url("../Views/Home/Sections/DescriptionSection/DescriptionSection.css");
 @import url("./variables/variables.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 body {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  min-width: 600px;
+  width: 100%;
+  overflow-x: hidden;
   background-color: black;
   font-family: "Poppins", sans-serif;
 }

@@ -1,6 +1,6 @@
 
 import { Route, HashRouter } from "react-router-dom";
-import Home from "./Views/Home";
+import Home from "./Views/Home/Home";
 import Header from "./Components/Header/Header";
 import React from "react";
 

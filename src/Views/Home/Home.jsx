@@ -1,7 +1,8 @@
 
-import ThreeDimensionalButtonContainer from "../Components/3DButtonContainer/3DButtonContainer";
-import "../Styles/main.css"
+import ThreeDimensionalButtonContainer from "../../Components/3DButtonContainer/3DButtonContainer";
+import "../../Styles/main.css"
 import React from "react";
+import DescriptionSection from "./Sections/DescriptionSection/DescriptionSection";
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
         <div className="3d-button-container">
           <ThreeDimensionalButtonContainer />
         </div>
+        <DescriptionSection />
       </div>
     </div>
   )
