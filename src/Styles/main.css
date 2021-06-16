@@ -9,6 +9,7 @@
 @import url("../Components/ButtonComponentModel/ButtonComponentModel.css");
 @import url("../Components/ButtonComponentModel/TagsLayer/TagsLayer.css");
 @import url("../Components/ButtonComponentModel/ButtonComponentDetailsModal/ButtonComponentDetailsModal.css");
+@import url("../Components/PrimaryButton/PrimaryButton.css");
 @import url("../Views/Home/Sections/DescriptionSection/DescriptionSection.css");
 @import url("./variables/variables.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
