@@ -1,0 +1,27 @@
+<span className="links-layer">
+            <ul className="links-list">
+              <li className="link-item">
+                <a href="https://www.github.com/DesignSystemsOSS/getbuttons.io">
+                  GitHub
+                </a>
+              </li>
+              •
+              <li className="link-item">
+                <a href="https://www.github.com/DesignSystemsOSS">
+                  DesignSystemsOSS
+                </a>
+              </li>
+              •
+              <li className="link-item">
+                <a href="https://github.com/DesignSystemsOSS/getbuttons.io/blob/master/CONTRIBUTING.md">
+                  Contribute
+                </a>
+              </li>
+              •
+              <li className="link-item">
+                <a href="https://github.com/DesignSystemsOSS/getbuttons.io/issues">
+                  Issues
+                </a>
+              </li>
+            </ul>
+          </span>
