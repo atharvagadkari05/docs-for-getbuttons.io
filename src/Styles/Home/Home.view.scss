@@ -74,3 +74,43 @@ div.Home {
   }
 
 }
+
+@media screen and (max-width: 1100px) {
+  // working
+  div.Home {
+    > div.introduction-container {
+      margin-top: 2em;
+
+      > div.introduction-description-section {
+        > h1.massive-headline {
+          text-align: center;
+          font-size: 42px;
+
+          > button.sample-button-primary {
+            font-size: 38px;
+            padding: 2px;
+          }
+
+          > button.sample-button-raised {
+            font-size: 38px;
+            padding: 2px;
+          }
+
+        }
+        > span.links-layer > ul.links-list {
+          display: flex;
+          align-items: center;
+          text-align: center;
+          list-style: none;
+  
+        > li.link-item {
+          margin-right: auto !important;
+          margin-left: auto !important;
+        }
+  
+      }
+      }
+
+    }
+  }
+}

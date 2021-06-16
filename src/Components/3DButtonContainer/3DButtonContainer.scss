@@ -12,3 +12,15 @@ div.ThreeDimensionalButtonContainer > div.sampleButtons {
 div.ThreeDimensionalButtonContainer {
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
 }
+
+@media screen and (max-width: 1100px) {
+  
+  div.ThreeDimensionalButtonContainer {
+    margin-top: 10em;
+  }
+
+  div.ThreeDimensionalButtonContainer > div.sampleButtons {
+    
+  }
+
+}

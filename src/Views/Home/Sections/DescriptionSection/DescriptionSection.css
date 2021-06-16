@@ -1,0 +1,43 @@
+div.DescriptionSection {
+  margin-top: 20em;
+}
+
+div.DescriptionSection > h1.headline {
+  color: white;
+  text-align: center;
+}
+
+div.DescriptionSection > div.TechCard-Container {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.DescriptionSection > div.TechCard-Container > div.TechCard {
+  padding: 0.8em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.DescriptionSection > div.TechCard-Container > div.TechCard > i.fas,
+div.DescriptionSection > div.TechCard-Container > div.TechCard > i.fab {
+  font-size: 180px;
+  color: white;
+}
+
+div.DescriptionSection > div.TechCard-Container > div.TechCard > i.fa-css3-alt:hover {
+  color: #6f6fff;
+}
+
+div.DescriptionSection > div.TechCard-Container > div.TechCard > i.fa-react:hover {
+  color: #6f6fff;
+}
+
+div.DescriptionSection > div.TechCard-Container > div.TechCard > p {
+  color: white;
+}
+/*# sourceMappingURL=DescriptionSection.css.map */

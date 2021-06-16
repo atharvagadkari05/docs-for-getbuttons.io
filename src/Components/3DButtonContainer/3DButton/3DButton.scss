@@ -5,9 +5,9 @@ $font-color: rgb(0, 0, 0);
 $button-color: rgb(241, 241, 241);
 $button-color-border: rgba(221, 221, 221, 0.7);
 $button-color-shadow: rgba(180, 180, 180, 0.120);
-$button-color-blue: rgb(117, 117, 255);
+$button-color-blue: rgb(81, 81, 255);
 $button-color-blue-shadow: rgba(117, 117, 255, 0.4);
-$button-color-blue-border: rgb(81, 81, 255);
+$button-color-blue-border: rgb(117, 117, 255);
 
 
 $bg: rgba(20, 120, 150, 1);
@@ -28,7 +28,7 @@ span.ThreeDimensionalButton {
 
       display: block;
       background: $button-color;
-      padding: 20px;    
+      padding: 20px;
       position: relative;
       // transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
       box-shadow: -20px 20px 10px $button-color-shadow;
@@ -75,11 +75,11 @@ span:hover {
       display: inline-block;
       margin: 30px;
       cursor: pointer;
-      color: $font-color;
+      color: white;
       text-align: center;
 
       display: block;
-      background: blue;
+      background: $button-color-blue;
       padding: 20px;    
       position: relative;
       // transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);

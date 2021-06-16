@@ -73,4 +73,36 @@ div.Home > div.introduction-container > div.introduction-description-section > s
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+
+@media screen and (max-width: 1100px) {
+  div.Home > div.introduction-container {
+    margin-top: 2em;
+  }
+  div.Home > div.introduction-container > div.introduction-description-section > h1.massive-headline {
+    text-align: center;
+    font-size: 42px;
+  }
+  div.Home > div.introduction-container > div.introduction-description-section > h1.massive-headline > button.sample-button-primary {
+    font-size: 38px;
+    padding: 2px;
+  }
+  div.Home > div.introduction-container > div.introduction-description-section > h1.massive-headline > button.sample-button-raised {
+    font-size: 38px;
+    padding: 2px;
+  }
+  div.Home > div.introduction-container > div.introduction-description-section > span.links-layer > ul.links-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    list-style: none;
+  }
+  div.Home > div.introduction-container > div.introduction-description-section > span.links-layer > ul.links-list > li.link-item {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
 /*# sourceMappingURL=Home.view.css.map */

@@ -7,7 +7,7 @@ function ThreeDimensionalButton(buttonProperties) {
   return (
     <span className="ThreeDimensionalButton">
       <span className="ButtonTopContent">
-      <text className="button-text">{buttonProperties.TextData}</text>
+        <text className="button-text">{buttonProperties.TextData}</text>
       </span>
     </span>
   )
