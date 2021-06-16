@@ -4,6 +4,7 @@
 @import url("../Components/Footer/Footer.css");
 @import url("../Components/3DButtonContainer/3DButtonContainer.css");
 @import url("../Components/3DButtonContainer/3DButton/3DButton.css");
+@import url("../Components/PrimaryButton/PrimaryButton.css");
 @import url("../Views/Home/Sections/DescriptionSection/DescriptionSection.css");
 @import url("./variables/variables.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
