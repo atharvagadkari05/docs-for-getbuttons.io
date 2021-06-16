@@ -1,0 +1,41 @@
+
+// external imports - fonts, icons and others
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// importing viewable components css
+@import url("./Home/Home.view.css");
+
+// importing components css
+@import url("../Components/Header/Header.css");
+@import url("../Components/Footer/Footer.css");
+@import url("../Components/3DButtonContainer/3DButtonContainer.css");
+@import url("../Components/3DButtonContainer/3DButton/3DButton.css");
+
+// importing variables
+@import url("./variables/variables.css");
+
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+  min-width: 600px;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+a, .link {
+  text-decoration: none;
+  color: rgb(82, 82, 255);
+  padding-right: 3.2px;
+  padding-left: 3.2px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: rgba(41, 41, 255, 0.825);
+    color: var(--docs-white);
+  }
+}

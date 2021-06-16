@@ -1,0 +1,36 @@
+div.Header {
+  font-family: var(--app-font);
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+div.Header > span.logo > a {
+  color: white;
+  font-weight: 600;
+}
+
+div.Header > div.header-options-container {
+  margin-left: auto;
+}
+
+div.Header > div.header-options-container > ul.header-options-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+div.Header > div.header-options-container > ul.header-options-list > li.header-option {
+  margin-right: 12px;
+  margin-left: 12px;
+
+  > a {
+    color: white;
+  }
+
+  > a:hover {
+    color: var(--app-color-blue);
+  }
+}

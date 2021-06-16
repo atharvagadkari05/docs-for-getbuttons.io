@@ -1,0 +1,46 @@
+div.Header {
+  font-family: var(--app-font);
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.Header > span.logo > a {
+  color: white;
+  font-weight: 600;
+}
+
+div.Header > div.header-options-container {
+  margin-left: auto;
+}
+
+div.Header > div.header-options-container > ul.header-options-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.Header > div.header-options-container > ul.header-options-list > li.header-option {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+div.Header > div.header-options-container > ul.header-options-list > li.header-option > a {
+  color: white;
+}
+
+div.Header > div.header-options-container > ul.header-options-list > li.header-option > a:hover {
+  color: var(--app-color-blue);
+}
+/*# sourceMappingURL=Header.css.map */
