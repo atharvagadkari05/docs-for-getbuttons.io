@@ -40,8 +40,4 @@ div.Header > div.header-options-container > ul.header-options-list > li.header-o
   color: white;
   padding: 1em;
 }
-
-div.Header > div.header-options-container > ul.header-options-list > li.header-option > a:hover {
-  color: var(--app-color-blue);
-}
 /*# sourceMappingURL=Header.css.map */

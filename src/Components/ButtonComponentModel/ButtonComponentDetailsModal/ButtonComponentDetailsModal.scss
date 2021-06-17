@@ -3,7 +3,21 @@ div.ButtonComponentDetailsModal {
   > div.content {
     > div.content-header {
       border-bottom: 1px solid gray;
+      
+      > button {
+        margin-bottom: 2em;
+      }
+    }
+
+  }
+  
+  > div.content-footer {
+    display: grid;
+    > button.closeButton {
+      margin-top: 1em;
+      margin-bottom: 1em;
+
     }
   }
-
+  
 }

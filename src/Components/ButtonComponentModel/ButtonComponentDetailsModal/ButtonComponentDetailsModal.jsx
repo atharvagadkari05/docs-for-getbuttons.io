@@ -17,11 +17,13 @@ function ButtonComponentDetailsModal(ButtonComponentDetails) {
           <h2>
             {ButtonComponentDetails.ButtonName}
           </h2>
+          <button className={ButtonComponentDetails.ButtonClassName}>{ButtonComponentDetails.ButtonName}</button>
         </div>
         <div className="content-body">
-          <p>Relevant Tags</p>
+          {/* <p>Relevant Tags</p> */}
           {/* <TagsLayer Tags={ButtonComponentDetails.ButtonTags}/> */}
           <div className="code-snippet-container">
+            <p>CSS Code</p>
             <div className="Code">
               <pre>
                 <code className={`language-${ButtonComponentDetails.ButtonComponentHTMLCodeSnippet.language}`}>
@@ -29,6 +31,7 @@ function ButtonComponentDetailsModal(ButtonComponentDetails) {
                 </code>
               </pre>
             </div>
+            <p>React Code</p>
             <div className="Code">
               <pre>
                 <code className={`language-${ButtonComponentDetails.ButtonComponentReactJSCodeSnippet.language}`}>

@@ -54,7 +54,7 @@ function ButtonComponentModel(ButtonComponentDetails) {
           ButtonComponentReactJSCodeSnippet={ButtonComponentDetails.ButtonCode[1]}
         />
           
-        <div>
+        <div className="content-footer">
           <button onClick={() => setModalState(false)}
             className="closeButton">
               Close

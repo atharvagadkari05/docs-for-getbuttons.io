@@ -1,4 +1,18 @@
 div.ButtonComponentDetailsModal > div.content > div.content-header {
   border-bottom: 1px solid gray;
 }
+
+div.ButtonComponentDetailsModal > div.content > div.content-header > button {
+  margin-bottom: 2em;
+}
+
+div.ButtonComponentDetailsModal > div.content-footer {
+  display: -ms-grid;
+  display: grid;
+}
+
+div.ButtonComponentDetailsModal > div.content-footer > button.closeButton {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 /*# sourceMappingURL=ButtonComponentDetailsModal.css.map */
